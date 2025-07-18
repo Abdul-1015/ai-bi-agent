@@ -1,0 +1,23 @@
+ai-bi-agent/
+├── README.md
+├── .gitignore
+├── next.config.js
+├── package.json
+├── tsconfig.json (if using TypeScript)
+├── public/
+│   └── (static assets, e.g. logo)
+├── src/
+│   ├── pages/          # Next.js pages/routes
+│   │   ├── api/        # API routes (file upload, AI agent)
+│   │   ├── index.tsx   # Home page
+│   │   ├── dashboard/  # Dynamic dashboards
+│   ├── components/     # Reusable React components
+│   ├── lib/            # DuckDB helpers, AI helper functions
+│   ├── styles/         # Tailwind config if needed
+│   ├── db/             # DB config for PostgreSQL
+│   ├── utils/          # Utilities
+│   ├── hooks/          # Custom React hooks
+│   ├── context/        # State management if needed (Zustand optional)
+│   └── config/         # Ollama config, env
+├── prisma/             # Prisma schema if using it for PostgreSQL ORM
+├── .env.example        # Example environment variables
